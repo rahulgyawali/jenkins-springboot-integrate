@@ -15,6 +15,7 @@ class ApplicationTests {
 	void contextLoads() {
 		logger.info(()->"Testing Done");
 		logger.info(()->"Testing Done 2");
+		logger.info(()->"Testing Done 3");
 		assertEquals(true, true);
 	}
 
